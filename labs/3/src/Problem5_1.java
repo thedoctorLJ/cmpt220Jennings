@@ -38,7 +38,7 @@ public class Problem5_1 {
 		}
 			
 			// Calculate the average
-			double average = sum / count;
+			double average = sum / count; // JA: You have to force at least one of the operands to be a double
 			
 			System.out.println("The number of positives is " + positive);
 			System.out.println("The number of negatives is " + negative);
