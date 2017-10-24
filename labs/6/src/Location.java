@@ -18,7 +18,7 @@ public class Location {
 			double maxValue = a[row][column];
 			
 			for (int i = 0; i < a.length; i++) {
-				for (int j = 0; i < a.length; j++) {
+				for (int j = 0; j < a[i].length; j++) { // JA
 					if (maxValue < a[i][j]) { // I honestly do not understand why this doesn't work
 						maxValue = a[i][j];
 						row = i;
